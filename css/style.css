@@ -1,5 +1,11 @@
 style.css
-h2 {
+
+
+body {
+	text-align: center;
+	margin: 0;
+}
+.h2 {
 	font-family: "Raleway", sans-serif;
 	color: #0D2C40;
 	letter-spacing: 1px;
@@ -8,15 +14,13 @@ h2 {
 	margin-left: 20px;
 	margin-right: 20px;
 	text-transform: uppercase;
+	text-align: center;
 }
 .paragraph {
 	font-family: "Droid Serif", serif;
 	line-height: 26px;
 	font-size: 18px;
-}
-body {
 	text-align: center;
-	margin: 0;
 }
 header {
 	background-color: #F15B31;
@@ -30,6 +34,7 @@ h1 {
 	letter-spacing: 1px;
 	margin: 0;
 	text-transform: uppercase;
+	text-align: center;
 }
 nav {
 	font-family: "Raleway", sans-serif;
@@ -37,10 +42,9 @@ nav {
 	color: #FFFFFF;
 	padding-bottom: 20px;
 	padding-top: 20px;
-/*	margin-left: 20px;
-	margin-right: 20px;*/
 	text-decoration: none;
 	text-transform: uppercase;
+	text-align: center;
 }
 .linkspecs {
 	text-decoration: none;
